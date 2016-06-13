@@ -2,14 +2,18 @@ package com.bitcup.whoseturn.skill;
 
 import com.amazon.speech.slu.Intent;
 import com.amazon.speech.speechlet.*;
+import com.bitcup.whoseturn.utils.TextUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+/**
+ * @author bitcup
+ */
 public class WhoseTurnSpeechlet implements Speechlet {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(WhoseTurnSpeechlet.class);
 
-    private WhoseTurnService whoseTurnService = new RandomWhoseTurnService();
+    private WhoseTurnService whoseTurnService = new WhoseTurnService();
     private SkillContext skillContext = new SkillContext();
 
     @Override
@@ -27,13 +31,11 @@ public class WhoseTurnSpeechlet implements Speechlet {
 
     @Override
     public SpeechletResponse onIntent(IntentRequest request, Session session) throws SpeechletException {
-        LOGGER.info("onIntent requestId={}, sessionId={}", request.getRequestId(), session.getSessionId());
         Intent intent = request.getIntent();
+        LOGGER.info("inisde onIntent, intent = {}", TextUtil.getIntentAsString(intent));
         switch (intent.getName()) {
-            case "WhoseTurnWithTwoStatedPersonsIntent":
-            case "WhoseTurnWithThreeStatedPersonsIntent":
-            case "WhoseTurnWithFourStatedPersonsIntent":
-                return whoseTurnService.getStatedPersonsIntentResponse(intent, session, skillContext);
+            case "WhoseTurnIntent":
+                return whoseTurnService.getWhoseTurnIntentResponse(intent, session, skillContext);
             case "AMAZON.HelpIntent":
                 return whoseTurnService.getHelpIntentResponse(intent, session, skillContext);
             case "AMAZON.CancelIntent":

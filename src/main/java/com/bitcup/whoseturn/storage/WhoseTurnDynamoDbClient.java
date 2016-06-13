@@ -3,6 +3,9 @@ package com.bitcup.whoseturn.storage;
 import com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient;
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapper;
 
+/**
+ * @author bitcup
+ */
 public class WhoseTurnDynamoDbClient {
     private final AmazonDynamoDBClient dynamoDBClient = AmazonDynamoDbClientHolder.getInstance();
 

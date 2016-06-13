@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * History of person selection by activity
+ * @author bitcup
  */
 public class SelectionHistory {
     private Map<Activity, List<PersonCount>> history = Maps.newHashMap();

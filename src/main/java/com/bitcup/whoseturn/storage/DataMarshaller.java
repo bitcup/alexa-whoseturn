@@ -19,8 +19,7 @@ import java.io.IOException;
 import java.util.HashMap;
 
 /**
- * A {@link DynamoDBMarshaller} that provides marshalling and unmarshalling logic for
- * {@link SelectionHistory} values so that they can be persisted in the database as String.
+ * @author bitcup
  */
 public class DataMarshaller implements DynamoDBMarshaller<SelectionHistory> {
 

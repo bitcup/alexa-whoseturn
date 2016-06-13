@@ -1,11 +1,11 @@
-WhoseTurnWithTwoStatedPersonsIntent is it to {Activity} {FirstPersonName} or {SecondPersonName}
-WhoseTurnWithTwoStatedPersonsIntent to {Activity} {FirstPersonName} or {SecondPersonName}
-WhoseTurnWithTwoStatedPersonsIntent {FirstPersonName} or {SecondPersonName}
+WhoseTurnIntent is it to {Activity} {FirstPersonName} or {SecondPersonName}
+WhoseTurnIntent it is to {Activity} {FirstPersonName} or {SecondPersonName}
+WhoseTurnIntent to {Activity} {FirstPersonName} or {SecondPersonName}
 
-WhoseTurnWithThreeStatedPersonsIntent is it to {Activity} {FirstPersonName} or {SecondPersonName} or {ThirdPersonName}
-WhoseTurnWithThreeStatedPersonsIntent to {Activity} {FirstPersonName} or {SecondPersonName} or {ThirdPersonName}
-WhoseTurnWithThreeStatedPersonsIntent {FirstPersonName} or {SecondPersonName} or {ThirdPersonName}
+WhoseTurnIntent is it to {Activity} {FirstPersonName} or {SecondPersonName} or {ThirdPersonName}
+WhoseTurnIntent it is to {Activity} {FirstPersonName} or {SecondPersonName} or {ThirdPersonName}
+WhoseTurnIntent to {Activity} {FirstPersonName} or {SecondPersonName} or {ThirdPersonName}
 
-WhoseTurnWithFourStatedPersonsIntent is it to {Activity} {FirstPersonName} or {SecondPersonName} or {ThirdPersonName} or {FourthPersonName}
-WhoseTurnWithFourStatedPersonsIntent to {Activity} {FirstPersonName} or {SecondPersonName} or {ThirdPersonName} or {FourthPersonName}
-WhoseTurnWithFourStatedPersonsIntent {FirstPersonName} or {SecondPersonName} or {ThirdPersonName} or {FourthPersonName}
+WhoseTurnIntent is it to {Activity} {FirstPersonName} or {SecondPersonName} or {ThirdPersonName} or {FourthPersonName}
+WhoseTurnIntent it is to {Activity} {FirstPersonName} or {SecondPersonName} or {ThirdPersonName} or {FourthPersonName}
+WhoseTurnIntent to {Activity} {FirstPersonName} or {SecondPersonName} or {ThirdPersonName} or {FourthPersonName}

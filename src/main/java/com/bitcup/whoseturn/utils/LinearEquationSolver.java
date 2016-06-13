@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Taken from:  http://www.sanfoundry.com/java-program-solve-linear-equation/
  *
- * @author omar
+ * @author bitcup
  */
 public class LinearEquationSolver {
 

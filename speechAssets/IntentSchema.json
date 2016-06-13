@@ -1,45 +1,7 @@
 {
   "intents": [
     {
-      "intent": "WhoseTurnWithTwoStatedPersonsIntent",
-      "slots": [
-        {
-          "name": "Activity",
-          "type": "LIST_OF_ACTIVITIES"
-        },
-        {
-          "name": "FirstPersonName",
-          "type": "LIST_OF_PERSON_NAMES"
-        },
-        {
-          "name": "SecondPersonName",
-          "type": "LIST_OF_PERSON_NAMES"
-        }
-      ]
-    },
-    {
-      "intent": "WhoseTurnWithThreeStatedPersonsIntent",
-      "slots": [
-        {
-          "name": "Activity",
-          "type": "LIST_OF_ACTIVITIES"
-        },
-        {
-          "name": "FirstPersonName",
-          "type": "LIST_OF_PERSON_NAMES"
-        },
-        {
-          "name": "SecondPersonName",
-          "type": "LIST_OF_PERSON_NAMES"
-        },
-        {
-          "name": "ThirdPersonName",
-          "type": "LIST_OF_PERSON_NAMES"
-        }
-      ]
-    },
-    {
-      "intent": "WhoseTurnWithFourStatedPersonsIntent",
+      "intent": "WhoseTurnIntent",
       "slots": [
         {
           "name": "Activity",

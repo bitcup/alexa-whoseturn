@@ -1,6 +1,5 @@
 package com.bitcup.whoseturn.com.bitcup.whoseturn.storage;
 
-import com.amazon.speech.speechlet.Session;
 import com.bitcup.whoseturn.model.SelectionHistory;
 import com.bitcup.whoseturn.storage.DataMarshaller;
 import com.bitcup.whoseturn.utils.TestUtils;
@@ -11,7 +10,7 @@ import org.slf4j.LoggerFactory;
 import static org.junit.Assert.*;
 
 /**
- * @author omar
+ * @author bitcup
  */
 public class DataMarshallerTest {
 

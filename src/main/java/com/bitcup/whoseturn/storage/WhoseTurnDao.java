@@ -2,6 +2,9 @@ package com.bitcup.whoseturn.storage;
 
 import com.bitcup.whoseturn.model.SelectionHistory;
 
+/**
+ * @author bitcup
+ */
 public class WhoseTurnDao {
 
     private final WhoseTurnDynamoDbClient dynamoDbClient = new WhoseTurnDynamoDbClient();
